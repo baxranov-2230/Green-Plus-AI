@@ -34,7 +34,7 @@ export interface ImpactItem {
 export interface Sensor {
   id: string;
   name: string;
-  type: 'air' | 'water' | 'waste' | 'energy';
+  type: 'air' | 'water' | 'waste' | 'energy' | 'noise' | 'vibration' | 'radiation';
   value: number;
   unit: string;
   status: 'normal' | 'warning' | 'critical';

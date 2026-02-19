@@ -78,5 +78,9 @@ export const SENSORS: Sensor[] = [
   { id: 's3', name: 'Zararli Gazlar (CO2)', type: 'air', value: 850, unit: 'ppm', status: 'warning', location: { x: 45, y: 55 } },
   { id: 's4', name: 'Chiqindi Rejimi', type: 'waste', value: 2.1, unit: 't/kun', status: 'normal', location: { x: 80, y: 70 } },
   { id: 's5', name: 'Energiya Sarfi', type: 'energy', value: 1240, unit: 'kWh', status: 'normal', location: { x: 20, y: 75 } },
-  { id: 's6', name: 'Suv Ilohi (PH)', type: 'water', value: 7.2, unit: 'pH', status: 'normal', location: { x: 75, y: 35 } },
+  { id: 's6', name: 'Suv Ishqori (PH)', type: 'water', value: 7.2, unit: 'pH', status: 'normal', location: { x: 75, y: 35 } },
+  { id: 's7', name: 'Shovqin Darajasi', type: 'noise', value: 68, unit: 'dB', status: 'normal', location: { x: 10, y: 20 } },
+  { id: 's8', name: 'Vibratsiya Monitoringi', type: 'vibration', value: 0.15, unit: 'mm/s', status: 'normal', location: { x: 35, y: 40 } },
+  { id: 's9', name: 'Radiatsiya Foni', type: 'radiation', value: 0.12, unit: 'µSv/h', status: 'normal', location: { x: 90, y: 10 } },
+  { id: 's10', name: 'Sex Shovqini (Industrial)', type: 'noise', value: 87, unit: 'dB', status: 'warning', location: { x: 55, y: 85 } },
 ];
